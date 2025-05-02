@@ -8,7 +8,10 @@ Zotero 中文社区关于 Renovate Bot 的可共享配置预设。
 
 ```jsonc
 {
-  "extends": ["github>zotero-chinese/renovate-config"],
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "local>zotero-chinese/renovate-config"
+  ]
 
   // 在此处覆盖配置
   "automerge": false
