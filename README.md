@@ -1,16 +1,20 @@
 # Renovate 配置
 
-Zotero 中文社区关于 Renovate Bot 的可共享配置预设
+Zotero 中文社区关于 Renovate Bot 的可共享配置预设。
 
-## Usage
+## 用法
 
-在 `renovate.json` 文件中：
+在 `renovate.jsonc` 文件中：
 
 ```jsonc
 {
   "extends": ["github>zotero-chinese/renovate-config"],
 
-  // override any settings here
-  "automerge": true
+  // 在此处覆盖配置
+  "automerge": false
 }
 ```
+
+## 参考
+
+[Renovate 文档](https://docs.renovatebot.com/config-presets/#grouporganization-level-presets)
