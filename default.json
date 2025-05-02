@@ -9,6 +9,6 @@
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
-  "autoApprove": true,
-  "automerge": true
+  "automerge": true,
+  "automergeStrategy": "squash"
 }
