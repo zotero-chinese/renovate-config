@@ -5,10 +5,10 @@
     "schedule:monthly",
     "group:allNonMajor",
     ":prHourlyLimitNone",
-    ":prConcurrentLimitNone"
+    ":prConcurrentLimitNone",
+    ":automergeStableNonMajor"
   ],
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
-  "automerge": true,
   "automergeStrategy": "squash"
 }
