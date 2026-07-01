@@ -24,6 +24,6 @@
     "default.json"
   ],
   "dependencies": {
-    "renovate": "^43.249.5"
+    "renovate": "^43.102.1"
   }
 }

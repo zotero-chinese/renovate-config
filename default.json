@@ -8,6 +8,7 @@
     ":prConcurrentLimitNone",
     ":automergeStableNonMajor"
   ],
+  "minimumReleaseAge": "1 day",
   "labels": ["dependencies"],
   "rangeStrategy": "bump",
   "automergeStrategy": "squash"
