@@ -4,7 +4,7 @@
   "private": true,
   "author": "northword",
   "license": "MIT",
-  "packageManager": "pnpm@11.18.0",
+  "packageManager": "pnpm@11.25.0",
   "homepage": "https://github.com/zotero-chinese/renovate-config#readme",
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
     "default.json"
   ],
   "dependencies": {
-    "renovate": "^44.4.5"
+    "renovate": "^44.61.1"
   }
 }
